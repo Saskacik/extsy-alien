@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  user-select: none;
+    background-image: url("Untitled-5.jpg"); /* Nastav obrázok pozadia */
+    background-size: cover; /* Urobí, že obrázok bude pokrývať celú obrazovku */
+    background-attachment: fixed; /* Udrží pozadie fixované pri scrollovaní */
+    background-position: center center; /* Umiestni pozadie do stredu */
+
+}
+header {
+  margin: 0 auto;
+  width: 431px;
+}
+h1 {
+  background: url("flappy-bird-set-01-01-01.png");
+  padding: 1.2rem 0;
+  margin: 0;
+	color: aliceblue
+}
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 6px;
+  background: #774E7E;
+	color: aliceblue;
+}
+
+/*menu*/
+a {
+	text-decoration:none;
+	color: white;	
+	}
+.menu a:hover {
+	color: #000000;	
+}
+	
+.menu {
+	clear: both;
+	height: 0;
+	background-color: blue;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}	
+
+ul li {
+	list-style: none;
+	text-align: center;
+	padding: 1em 5em;
+	float: left;
+	
+	
+}
+
+.menu ul li:hover {
+	background-color:#4E4060;
+
+}

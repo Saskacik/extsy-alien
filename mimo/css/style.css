@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+height: auto;
+}
+
+
+
+img {
+  display: block;
+}
+
+.foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+}
+
+.ufo_section {
+  width:100%;
+  height:auto;
+  background: url("../images/alien-02.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30% auto;
+  background-attachment: fixed;
+  z-index:999;
+}
+
+.ufo_section:hover {
+  width:100%;
+  height:auto;
+  background: url("../images/alien-01.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30% auto;
+  background-attachment: fixed;
+  z-index:999;
+}
